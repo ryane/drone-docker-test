@@ -16,6 +16,8 @@ publish:
     password: $$DOCKER_PASSWORD
     email: $$DOCKER_EMAIL
     repo: ryane/drone-docker-test
-    tag: $$TAG
+    tag:
+      - $$TAG
+      - latest
     when:
       event: tag
