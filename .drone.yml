@@ -9,7 +9,6 @@ publish:
     email: $$DOCKER_EMAIL
     repo: ryane/drone-docker-test
     tag:
-      - $$TAG
       - latest
     when:
       event: tag
